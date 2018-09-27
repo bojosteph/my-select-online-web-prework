@@ -6,8 +6,8 @@ while x < array.size
   if yield(array[x]) == true
   nums.push(array[count])
 end
-  xt+=1
+  x += 1
 end
-result
+num
 end
  
