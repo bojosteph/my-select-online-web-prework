@@ -2,7 +2,7 @@
  def my_select(array)
   
   array.each_with_index do |n, i|
-      self[i] = code.call(n)
+      array[i] = code.call(n)
     end
   end
 end
