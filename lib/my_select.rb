@@ -5,8 +5,6 @@
       array[i] = code.call(n)
     end
   
-
-
 array_1 = []
 
 
