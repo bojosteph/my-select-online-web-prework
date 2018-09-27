@@ -3,7 +3,7 @@ x = 0
 result = []
 
 while x < array.size
-  if yield(array[count]) == true
+  if yield(array[x]) == true
   result.push(array[count])
 end
   count+=1
