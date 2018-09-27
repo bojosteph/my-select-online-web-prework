@@ -1,5 +1,5 @@
 def my_select(array) 
-count = 0
+x = 0
 result = []
 
 while count < array.size
