@@ -1,15 +1,17 @@
 
- def my_select(array)
-  
-  array.each_with_index do |n, i|
-      array[i] = code.call(n)
-    end
-  
-array_1 = []
-
-
-even = Proc.new do |n|
-  array_1.select{ |num|  num.even? }
-  
-end
+ def my_select(array) 
+  i =0 
+  select = [] 
+  while i < array.length 
+    if (yield(array[i]))
     
+      select << array[i] 
+    end 
+    i += 1 
+  end 
+  select 
+end 
+
+my_select(nums) do |num| 
+  num.even? 
+end 
