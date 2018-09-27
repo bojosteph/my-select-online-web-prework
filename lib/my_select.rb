@@ -10,6 +10,6 @@ end
 array_1 = [1, 2, 3, 4]
 
 
-square = Proc.new do |n|
+even = Proc.new do |n|
   n ** 2
     
