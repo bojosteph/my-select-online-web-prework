@@ -1,12 +1,12 @@
 def my_select(array) 
 x = 0
- = []
+nums = []
 
 while x < array.size
   if yield(array[x]) == true
-  result.push(array[count])
+  nums.push(array[count])
 end
-  count+=1
+  xt+=1
 end
 result
 end
