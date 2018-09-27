@@ -1,3 +1,7 @@
-def my_select(collection)
- # your code here!
-end
+
+ def my_select(array)
+  new_array = []
+  
+
+  
+  
