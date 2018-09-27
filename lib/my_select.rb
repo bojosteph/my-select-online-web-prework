@@ -7,9 +7,9 @@
   end
 end
 
-array_1 = [1, 2, 3, 4]
+array_1 = []
 
 
 even = Proc.new do |n|
-  
+  array_1.select
     
