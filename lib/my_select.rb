@@ -8,6 +8,6 @@ while x < array.size
 end
   x += 1
 end
-num
+nums
 end
  
