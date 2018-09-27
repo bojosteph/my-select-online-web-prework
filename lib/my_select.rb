@@ -11,5 +11,5 @@ array_1 = []
 
 
 even = Proc.new do |n|
-  array_1.select{ |num|  num.even?  }
+  array_1.select{ |num|  num.even? }
     
